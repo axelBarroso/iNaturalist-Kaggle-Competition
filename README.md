@@ -10,5 +10,3 @@ The second model is a Harris corner detection model. It is a deep novel implemen
 Normalized images and Harris map images go through the inception-resnet model giving as a result the final features used for training. 
 
 A simple convolution layer is used for the final stage of the classification. From features map to a prediction vector.
-
-The top-5 error rate after one epoch is 30%
